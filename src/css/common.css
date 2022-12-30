@@ -16,3 +16,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Times interface change */
+.timer {
+  display: flex;
+}
+
+.field {
+  text-align: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  display: block;
+  font-size: 42px;
+  font-weight: 600;
+}
